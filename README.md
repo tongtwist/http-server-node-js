@@ -15,7 +15,7 @@ protocol that powers the web. In this challenge, you'll build a HTTP/1.1 server
 that is capable of serving multiple clients.
 
 This server is made only on top of native Node.js 18 API, except for its builtin HTTP Server, meaning that it is a pure TCP server, and it can parse and serve concurrent
-[HTTP request syntax](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html) requests, and more.
+[HTTP/1.1](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html) requests, and more.
 
 As a zero dependency node.js app (ie a purely naked script), it does not need any `package.json` file.
 
