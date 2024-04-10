@@ -23,3 +23,7 @@ Just launch it by
 ```sh
 $ node app/main.js [--directory <staticFilesDirectory>]
 ```
+---
+Pretty frustrating to have to write that in JS for Node.js (CommonJS)...
+
+I may be tempting to rewrite it in TS for Bun. To be continued...
