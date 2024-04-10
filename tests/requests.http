@@ -1,0 +1,30 @@
+GET http://localhost:4221/
+
+
+###
+GET http://localhost:4221/237/vanilla
+
+
+###
+GET http://localhost:4221/echo/vanilla/Monkey-Coo
+
+
+###
+GET http://localhost:4221/user-agent
+User-Agent: Horsey/dooby
+
+
+###
+GET http://localhost:4221/files/monkey_vanilla_yikes_vanilla
+
+
+###
+GET http://localhost:4221/files/non-existentHorsey_Coo_Horsey_dumpty
+
+
+###
+POST http://localhost:4221/files/yikes_donkey_Coo_humpty
+
+Coo dumpty Monkey Horsey monkey scooby scooby humpty
+
+###
